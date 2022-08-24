@@ -32,10 +32,10 @@ body {
 
 .body-content {
     display: flex;
-    height: 400px;
+    height: 300px;
     background-color: #1F2937;
     margin-top: 0px;
-    justify-content: center;
+    align-items: center;
     padding: 0px 140px;
     
     
@@ -44,11 +44,40 @@ body {
 .box1, .box2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    border: 2px solid white;
+    
+}
 
+.box1 {
+    margin-right: auto;
+    height: 200px;
+    width: 300px;
+}
+
+.box1 h2 {
+    margin: 0px;
 }
 
 .catcher {
     color: #F9FAF8;
 }
+
+.description {
+    color: #F9FAF8;
+    margin: 5px;
+}
+
+.signup-body {
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+}
+
+.box2 {
+    width: 400px;
+    height: 200px;
+}
+
+
