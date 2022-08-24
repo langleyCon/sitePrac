@@ -2,3 +2,53 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+    
+}
+
+.header {
+    display: flex;
+    align-content: center;
+    padding: 0px 140px;
+    background-color: #1F2937;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.logo {
+    margin-right: auto;
+
+}
+
+.rightItems {
+    display: flex;
+    gap: 8px;
+}
+
+.body-content {
+    display: flex;
+    height: 400px;
+    background-color: #1F2937;
+    margin-top: 0px;
+    justify-content: center;
+    padding: 0px 140px;
+    
+    
+}
+
+.box1, .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+
+}
+
+.catcher {
+    color: #F9FAF8;
+}
